@@ -1,0 +1,28 @@
+.container{
+    display:flex;
+    direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:10px auto;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:start;
+ 
+}
+button{
+    margin:18px;
+    padding:5px;
+    font-size:20px;
+    cursor: pointer;
+}
+.form-field,label{
+color:rgb(68, 0, 255);
+}
+h1{
+    color:green;
+    text-align: center;
+}
+
